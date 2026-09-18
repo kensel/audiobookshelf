@@ -46,6 +46,7 @@
     "express-session": "^1.17.3",
     "graceful-fs": "^4.2.10",
     "htmlparser2": "^8.0.1",
+    "jwa": "^1.4.2",
     "lru-cache": "^10.0.3",
     "node-unrar-js": "^2.0.2",
     "nodemailer": "^6.9.13",
@@ -63,7 +64,7 @@
   "devDependencies": {
     "@types/node": "^20.17.0",
     "chai": "^4.3.10",
-    "mocha": "^10.2.0",
+    "mocha": "^11.8.0",
     "nodemon": "^2.0.20",
     "nyc": "^15.1.0",
     "sinon": "^17.0.1",
