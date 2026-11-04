@@ -54,7 +54,7 @@ find dist/debian -type f -exec chmod 644 {} +
 chmod 755 dist/debian/DEBIAN/preinst dist/debian/DEBIAN/postinst dist/debian/DEBIAN/prerm
 
 # Package debian
-pkg --config package.json -t node24-linux-x64 -o dist/debian/usr/share/audiobookshelf/audiobookshelf dist-server/index.js
+pkg --config package.json -t node26-linux-x64 -o dist/debian/usr/share/audiobookshelf/audiobookshelf dist-server/index.js
 
 fakeroot dpkg-deb -Zxz --build dist/debian
 
